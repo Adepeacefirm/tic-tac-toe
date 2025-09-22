@@ -16,7 +16,7 @@ const Homepage = ({ setPlayerMark, playerMark, setOpponent }) => {
           <div className="flex justify-center items-center my-5 bg-[hsl(202,32%,15%)] w-[80%] mx-auto py-2 rounded-lg">
             <div
               onClick={() => setPlayerMark("X")}
-              className={`w-[40%] flex justify-center px-2 py-1 rounded-xl ${
+              className={`w-[40%] flex cursor-pointer justify-center px-2 py-1 rounded-xl ${
                 playerMark === "X" && "bg-[hsl(198,23%,32%)]"
               }`}
             >
@@ -24,7 +24,7 @@ const Homepage = ({ setPlayerMark, playerMark, setOpponent }) => {
             </div>
             <div
               onClick={() => setPlayerMark("O")}
-              className={`w-[40%] flex justify-center p-2 py-1 rounded-xl ${
+              className={`w-[40%] flex cursor-pointer justify-center p-2 py-1 rounded-xl ${
                 playerMark === "O" && "bg-[hsl(198,23%,32%)]"
               }`}
             >
