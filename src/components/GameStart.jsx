@@ -125,7 +125,7 @@ const GameStart = ({ playerMark, opponent, setOpponent }) => {
 
   return (
     <div className="bg-[hsl(202,32%,15%)] w-full min-h-screen">
-      <main className="min-h-[100vh]  sm:w-[70%] sm:mx-auto">
+      <main className="min-h-[100vh]  sm:w-[70%] lg:w-[40%] sm:mx-auto">
         <header className="flex justify-between w-[90%] sm:w-[60%] mx-auto pt-5 sm:pt-15">
           <div className="flex items-center gap-2">
             <img className="w-[15%]" src={assets.icon_x} alt="icon x" />
